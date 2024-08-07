@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio Page</title>
+	<link rel="stylesheet" href="styles.css">
+	<meta name="viewport" content="width=display-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Protest+Riot&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+		<div class="container">
+			<div class="intro">
+				<img class="profile-picture" width="300" height="300"
+				src="images/profile-picture.jpg"/>
+				<h1 id="my-name">James Blah</h1>
+				<h3>Web Developer At CareerFoundry</h3>
+				<p>[{Aspiring etc with career goals like etc.}]</p>
+			</div>
+
+			<hr/>
+
+			<div class="about-grid">
+				<div class="i-am">
+					<h3>I am</h3>
+					<ul class="about-list">
+						<li class="about-list-item">An Engineer</li>
+						<li class="about-list-item">A reader</li>
+						<li class="about-list-item">A hobby cook</li>
+					</ul>	
+				</div>
+				<div class="i-like">
+					<h3>I like to</h3>
+					<ul class="about-list">
+						<li class="about-list-item">Meet new people</li>
+						<li class="about-list-item">Eat Ice-cream</li>
+						<li class="about-list-item">Play guitar</li>
+					</ul>
+				</div>
+			</div>
+
+			<hr/>
+
+			<div>
+				<h3 class="projects-heading">My Projects</h3>
+				<div class="projects-grid">
+					<div class="project-image-wrapper">
+						<h4>Project 1</h4>
+						<img class="project-image" src="images/project-1.jpg"/>
+					</div>
+					<div class="project-image-wrapper">
+						<h4>Project 2</h4>
+						<img class="project-image" src="images/project-2.jpg"/>
+					</div>
+					<div class="project-image-wrapper">
+						<h4>Project 3</h4>
+						<img class="project-image" src="images/project-3.jpg"/>
+					</div>
+					<div class="project-image-wrapper">
+						<h4>Project 4</h4>
+						<img class="project-image" src="images/project-4.jpg"/>
+					</div>	
+				</div>	
+			</div>
+
+			<hr/>
+
+			<div class="links-and-contact">
+				<div class="links">
+					<h3>Links</h3>
+					<ul class="links-list">
+						<li>
+							<a href="https://github.com/">Github</a>
+						</li>
+						<li>
+							<a href="https://twitter.com/">Twitter</a>
+						</li>
+						<li>
+							<a href="https://sg.linkedin.com/">LinkedIn</a>
+						</li>
+					</ul>
+				</div>
+				
+				<div>
+					<form action="#">
+						<label for="email">
+							<h4>Email</h4>
+							<input type="email" id="email" placeholder="Enter your email" autocomplete="on"/>
+						</label>
+						<label for="message">
+							<h4>Message</h4> <textarea id="message">
+							Your Message</textarea>
+						</label>
+						<div class="submit-button-wrapper">
+							<input id="submit-button" type="submit" value="Send Message"/>		
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
